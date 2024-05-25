@@ -1,0 +1,42 @@
+d<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video Player from Textarea</title>
+</head>
+<body>
+    <h2>Audio</h2>
+    <textarea id="audioUrl" placeholder="Enter audio URL"></textarea>
+    <button onclick="loadAndPlayAudio()">Load and Play</button>
+    <audio id="audioPlayer" controls>
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Video</h2>
+    <textarea id="videoUrl" placeholder="Enter video URL"></textarea>
+    <button onclick="loadAndPlayVideo()">Load and Play</button>
+    <video id="videoPlayer" controls>
+        Your browser does not support the video element.
+    </video>
+
+    <script src="script.js"></script>
+</body>
+</html>
+   <h2>functionloadandplay<h2>
+     functionloadAndPlayAudio() 
+   {
+        var audioUrl = document.getElementById('audioUrl').value;
+        var audioPlayer = document.getElementById('audioPlayer');
+        audioPlayer.src = audioUrl;
+        audioPlayer.play();
+    }
+    functionloadAndPlayVideo() 
+    {
+        var videoUrl = document.getElementById('videoUrl').value;
+        var videoPlayer = document.getElementById('videoPlayer');
+        videoPlayer.src = videoUrl;
+        videoPlayer.play();
+    }
+</body>
+<html>    

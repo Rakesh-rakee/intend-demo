@@ -1,0 +1,18 @@
+.section-1{
+    background-image:background-color: #ADD8E6
+}
+.section-1 heading{
+    font-size: 4rem;
+}
+ /* font-family; "robot", sans-serif; */
+ /* font-family; "noto sans", sans-serif */
+ h1,h2,h3,h4,h5,h6{
+   font-family:"noto sans", sans-serif;
+ }
+
+ 
+ p{
+    font-family:"robot", sans-serif;
+}
+     
+
